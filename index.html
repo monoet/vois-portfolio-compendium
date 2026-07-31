@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio reference library and VOIS showcase candidate tracker." />
+  <title>VOIS Portfolio Compendium</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Living reference system</p>
+      <h1>VOIS Portfolio Compendium</h1>
+      <p class="intro">
+        Portfolio references, reusable presentation patterns, and evidence from VOIS that may become future case studies.
+      </p>
+    </div>
+    <div class="header-actions">
+      <button id="themeToggle" class="ghost-button" type="button">Toggle theme</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="metrics" id="metrics" aria-label="Compendium metrics"></section>
+
+    <section class="controls" aria-label="Filters">
+      <input id="searchInput" type="search" placeholder="Search references, ideas, tags, commits…" />
+      <select id="disciplineFilter" aria-label="Filter by discipline">
+        <option value="all">All disciplines</option>
+      </select>
+      <select id="statusFilter" aria-label="Filter by status">
+        <option value="all">All statuses</option>
+      </select>
+    </section>
+
+    <nav class="tabs" aria-label="Compendium sections">
+      <button class="tab active" data-tab="references" type="button">References</button>
+      <button class="tab" data-tab="candidates" type="button">VOIS candidates</button>
+      <button class="tab" data-tab="captures" type="button">Capture queue</button>
+      <button class="tab" data-tab="principles" type="button">Principles</button>
+    </nav>
+
+    <section id="references" class="panel active-panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">External inspiration</p>
+          <h2>Portfolio references</h2>
+        </div>
+        <p class="section-note">Capture what works, why it works, and where VOIS can use the pattern.</p>
+      </div>
+      <div id="referenceGrid" class="card-grid"></div>
+      <p id="referenceEmpty" class="empty-state" hidden>No references match these filters.</p>
+    </section>
+
+    <section id="candidates" class="panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Internal evidence</p>
+          <h2>VOIS showcase candidates</h2>
+        </div>
+        <p class="section-note">Potential case studies detected from development work and Git history.</p>
+      </div>
+      <div id="candidateGrid" class="card-grid"></div>
+      <p id="candidateEmpty" class="empty-state" hidden>No candidates match these filters.</p>
+    </section>
+
+    <section id="captures" class="panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Unprocessed material</p>
+          <h2>Capture queue</h2>
+        </div>
+        <p class="section-note">Screenshots and links awaiting transcription, tagging, and synthesis.</p>
+      </div>
+      <div id="captureGrid" class="card-grid"></div>
+      <p id="captureEmpty" class="empty-state" hidden>No pending captures.</p>
+    </section>
+
+    <section id="principles" class="panel">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Reusable knowledge</p>
+          <h2>Presentation principles</h2>
+        </div>
+      </div>
+      <div id="principleGrid" class="principle-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Maintained as data first. The page is only the reader.</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

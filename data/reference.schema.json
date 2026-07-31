@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VOIS Portfolio Reference",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "disciplines",
+    "status",
+    "summary",
+    "takeaway",
+    "vois_application",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "creator": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "disciplines": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "inbox",
+        "reviewed",
+        "archived"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "takeaway": {
+      "type": "string"
+    },
+    "vois_application": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

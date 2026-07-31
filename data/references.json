@@ -1,0 +1,50 @@
+{
+  "references": [
+    {
+      "id": "topfhelm-composer",
+      "title": "Music organized by game usage",
+      "creator": "Topfhelm",
+      "url": "https://topfhelm.com/composer",
+      "disciplines": [
+        "Music",
+        "Game audio"
+      ],
+      "status": "reviewed",
+      "summary": "A composer portfolio whose music is grouped by its role inside games instead of only by genre, release, or instrumentation.",
+      "takeaway": "The listener immediately understands where each piece belongs: combat, exploration, character, atmosphere, interface, or narrative.",
+      "vois_application": "Organize VOIS music by gameplay function, then show implementation context, adaptive behavior, and the scene or system each cue supports.",
+      "tags": [
+        "information architecture",
+        "game usage",
+        "music reels",
+        "context first"
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "title": "Organize by the viewer's decision",
+      "description": "A recruiter should not need to decode the project. Group work by the question they are trying to answer: Can this person design combat audio? Can they build a game system? Can they communicate visual intent?"
+    },
+    {
+      "title": "Show evidence, not only output",
+      "description": "Pair the polished result with constraints, iteration, implementation details, and a concise explanation of what changed because of your work."
+    },
+    {
+      "title": "One VOIS feature can serve several portfolios",
+      "description": "A timed-hit feature can become a game-design case study, a programming breakdown, a UI interaction piece, and a sound-design implementation example. Reuse evidence, not identical framing."
+    },
+    {
+      "title": "Capture while the work is alive",
+      "description": "Record before-and-after images, short clips, diagrams, commits, failed approaches, and final decisions during development. Reconstructing them months later is expensive."
+    },
+    {
+      "title": "Separate reference from imitation",
+      "description": "Store the exact pattern you admired, the underlying principle, and a distinct VOIS application. This turns inspiration into reusable knowledge instead of a mood board."
+    },
+    {
+      "title": "Every case study needs a proof package",
+      "description": "Minimum evidence: final media, problem statement, your role, constraints, process, technical or design decisions, result, and one concrete lesson."
+    }
+  ]
+}

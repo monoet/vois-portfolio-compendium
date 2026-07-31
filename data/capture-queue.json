@@ -1,0 +1,19 @@
+{
+  "captures": [
+    {
+      "id": "screenclip-ef1f9733",
+      "title": "Portfolio screenshot reference",
+      "type": "screenshot",
+      "source": "C:\\Users\\user\\AppData\\Local\\Packages\\MicrosoftWindows.Client.Core_cw5n1h2txyewy\\TempState\\ScreenClip\\{EF1F9733-2C8D-4484-B2EF-941998913C91}.png",
+      "status": "missing-file",
+      "note": "The path was supplied, but the image was not attached to this conversation or copied into this repository.",
+      "next_action": "Copy the image into /captures and create a reference entry describing its structure, strongest pattern, and possible VOIS application.",
+      "disciplines": [
+        "Portfolio research"
+      ],
+      "tags": [
+        "pending import"
+      ]
+    }
+  ]
+}
