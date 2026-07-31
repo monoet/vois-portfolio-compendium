@@ -19,6 +19,282 @@
         "music reels",
         "context first"
       ]
+    },
+    {
+      "id": "sean-gorman-level-design",
+      "title": "Clean level design portfolio with clear role separation",
+      "creator": "Sean Gorman",
+      "url": "https://www.gormandev.com/",
+      "disciplines": [
+        "Game design",
+        "Art direction"
+      ],
+      "status": "inbox",
+      "summary": "Level design portfolio organized by project, with explicit role, contributions, and process breakdown per piece.",
+      "takeaway": "Separate projects cleanly, state your exact role, and let the viewer navigate by project rather than by skill.",
+      "vois_application": "VOIS environment case studies (Nyelith Forest, dungeons) should each get a self-contained project card with role, constraints, and evidence.",
+      "tags": [
+        "level design",
+        "project structure",
+        "role clarity"
+      ]
+    },
+    {
+      "id": "yoann-pierkot-technical-level-design",
+      "title": "Technical level design with responsibilities and tools",
+      "creator": "Yoann Pierkot",
+      "url": "https://yoann-pierkot.netlify.app/",
+      "disciplines": [
+        "Game design",
+        "Game programming"
+      ],
+      "status": "inbox",
+      "summary": "Portfolio emphasizing experience, responsibilities, and technical level design. Strong on process but light on systems/balance.",
+      "takeaway": "Present responsibilities and technical decisions alongside the visual result — not just pretty maps.",
+      "vois_application": "Room Gate authoring helper and foliage scatterer are natural VOIS technical-level-design evidence.",
+      "tags": [
+        "technical design",
+        "level design",
+        "responsibilities"
+      ]
+    },
+    {
+      "id": "gerlogu-game-design",
+      "title": "Gameplay, systems, and combat design in Unity and Unreal",
+      "creator": "Germán López (Gerlogu)",
+      "url": "https://gerlogu.com/",
+      "disciplines": [
+        "Game design",
+        "Game programming",
+        "UI"
+      ],
+      "status": "inbox",
+      "summary": "Among the closest references to VOIS direction: gameplay, systems, and combat design work across Unity and Unreal. Covers implementation and design reasoning.",
+      "takeaway": "The sweet spot for VOIS: systems thinking paired with implementation evidence in real engines.",
+      "vois_application": "Primary reference model for Timed Hit, Marks, and combat flow case studies. Study how he structures the designer-programmer hybrid narrative.",
+      "tags": [
+        "systems design",
+        "combat",
+        "unity",
+        "implementation",
+        "high-priority"
+      ]
+    },
+    {
+      "id": "oliver-walker-game-level-design",
+      "title": "Professional breakdowns with design goals and ownership",
+      "creator": "Oliver William Walker",
+      "url": "https://oliverwilliamwalker.co.uk/",
+      "disciplines": [
+        "Game design",
+        "Game programming"
+      ],
+      "status": "inbox",
+      "summary": "Strong professional breakdowns: design objectives, content, gameplay scripting, iteration process, and ownership within commercial projects.",
+      "takeaway": "Always state the design goal before showing the solution. Ownership clarity builds credibility.",
+      "vois_application": "Apply his goal → content → iteration → result structure to VOIS combat and systems features.",
+      "tags": [
+        "breakdown structure",
+        "ownership",
+        "commercial",
+        "iteration"
+      ]
+    },
+    {
+      "id": "vg-entertainment-technical-design-guide",
+      "title": "How to present prototypes, technical implementation, and system interaction",
+      "creator": "VG Entertainment",
+      "url": "https://vgentertainment.com/our-news/technical-design-portfolio/",
+      "disciplines": [
+        "Game design",
+        "Game programming"
+      ],
+      "status": "inbox",
+      "summary": "Guide for presenting mechanic prototypes, technical implementation details, and interaction with other systems in a technical design portfolio.",
+      "takeaway": "Show the prototype, the technical decisions, and how the system talks to other systems — not just the polished result.",
+      "vois_application": "Use as structural reference for VOIS technical design case studies (event routing, persistence, authoring tools).",
+      "tags": [
+        "technical design",
+        "prototyping",
+        "system interaction",
+        "guide"
+      ]
+    },
+    {
+      "id": "alexia-mandeville-portfolio-guide",
+      "title": "Structure every piece: context, process, decisions, contribution, result",
+      "creator": "Alexia Mandeville",
+      "url": "https://alexiamandeville.medium.com/how-to-make-a-great-game-design-portfolio-14169d6838fb",
+      "disciplines": [
+        "Game design",
+        "Portfolio research"
+      ],
+      "status": "inbox",
+      "summary": "Guide for structuring each portfolio piece with visual context, process, design decisions, personal contribution, and final result.",
+      "takeaway": "The five-part structure (context → process → decisions → contribution → result) works across every discipline.",
+      "vois_application": "Adopt this as the default VOIS case study template. Every feature card should answer these five questions.",
+      "tags": [
+        "structure",
+        "process",
+        "contribution",
+        "guide",
+        "high-priority"
+      ]
+    },
+    {
+      "id": "champlain-college-portfolio-guide",
+      "title": "Define narrative, select pieces by opportunity, show skills and process",
+      "creator": "Champlain College",
+      "url": "https://www.champlain.edu/blog/stories/build-game-design-portfolio/",
+      "disciplines": [
+        "Game design",
+        "Portfolio research"
+      ],
+      "status": "inbox",
+      "summary": "Guide for building a professional narrative, selecting portfolio pieces according to the role, and demonstrating skills through process documentation.",
+      "takeaway": "Curate per audience. A combat designer portfolio and a tools portfolio should feel like different documents even if they share evidence.",
+      "vois_application": "VOIS will eventually need discipline-specific views from the same evidence bank. This guide informs that filtering logic.",
+      "tags": [
+        "curation",
+        "audience",
+        "narrative",
+        "guide"
+      ]
+    },
+    {
+      "id": "gamedesignskills-portfolio-guide",
+      "title": "General portfolio guide with sections per design discipline",
+      "creator": "Game Design Skills",
+      "url": "https://gamedesignskills.com/game-design/portfolio/",
+      "disciplines": [
+        "Game design",
+        "Portfolio research"
+      ],
+      "status": "inbox",
+      "summary": "Comprehensive portfolio guide with dedicated sections for gameplay, systems, level, and narrative design portfolios.",
+      "takeaway": "Different design disciplines need different evidence types. Don't use the same template for systems and level design.",
+      "vois_application": "Use the discipline-specific sections to validate VOIS case study formats per angle (systems vs. combat vs. tools).",
+      "tags": [
+        "discipline separation",
+        "guide",
+        "systems",
+        "level design"
+      ]
+    },
+    {
+      "id": "gamedesignskills-systems-design",
+      "title": "Present systems around desired experience, relationships, and analysis",
+      "creator": "Game Design Skills",
+      "url": "https://gamedesignskills.com/game-design/systems-design/",
+      "disciplines": [
+        "Game design"
+      ],
+      "status": "inbox",
+      "summary": "Systems design portfolio guidance: organize around the desired player experience, show relationships between mechanics, and include systemic analysis.",
+      "takeaway": "Systems portfolios fail when they list features. They succeed when they show how features produce player behavior.",
+      "vois_application": "The Marks System and CP economy case studies should lead with the player decision, not the implementation.",
+      "tags": [
+        "systems design",
+        "player experience",
+        "mechanics",
+        "analysis"
+      ]
+    },
+    {
+      "id": "dylan-del-sontro-systems-design",
+      "title": "Systems and game design portfolio (Game Design Skills)",
+      "creator": "Dylan Del Sontro",
+      "url": "https://dylandelsontro.gamedesignskills.com/",
+      "disciplines": [
+        "Game design"
+      ],
+      "status": "inbox",
+      "summary": "Systems and game design portfolio hosted on Game Design Skills. Additional example within the systems design reference.",
+      "takeaway": "TBD — needs deeper review",
+      "vois_application": "TBD — needs deeper review",
+      "tags": [
+        "systems design",
+        "example",
+        "needs-review"
+      ]
+    },
+    {
+      "id": "chloe-ingram-gameplay-ui",
+      "title": "Gameplay, systems, and UI portfolio (Game Design Skills)",
+      "creator": "Chloe Ingram",
+      "url": "https://chloeingram.gamedesignskills.com/",
+      "disciplines": [
+        "Game design",
+        "UI"
+      ],
+      "status": "inbox",
+      "summary": "Portfolio spanning gameplay, systems, and UI design. Useful cross-discipline reference for VOIS features touching multiple domains.",
+      "takeaway": "TBD — needs deeper review",
+      "vois_application": "TBD — needs deeper review",
+      "tags": [
+        "gameplay",
+        "ui",
+        "systems",
+        "cross-discipline",
+        "needs-review"
+      ]
+    },
+    {
+      "id": "andre-salomao-game-design",
+      "title": "Game design portfolio (Game Design Skills)",
+      "creator": "André Salomão",
+      "url": "https://andresalomao.gamedesignskills.com/",
+      "disciplines": [
+        "Game design"
+      ],
+      "status": "inbox",
+      "summary": "Game design portfolio on Game Design Skills platform. General reference for design presentation structure.",
+      "takeaway": "TBD — needs deeper review",
+      "vois_application": "TBD — needs deeper review",
+      "tags": [
+        "game design",
+        "example",
+        "needs-review"
+      ]
+    },
+    {
+      "id": "project-ink-systems-design",
+      "title": "Detailed systems design deliverable with full documentation",
+      "creator": "André Salomão / Project Ink",
+      "url": "https://andresalomao.gamedesignskills.com/project-ink/",
+      "disciplines": [
+        "Game design"
+      ],
+      "status": "inbox",
+      "summary": "Deep systems design deliverable showing full documentation of a game system. High-value reference for how to structure a VOIS systems case study.",
+      "takeaway": "TBD — needs deeper review",
+      "vois_application": "Potential template for VOIS Marks System or CP economy deep-dive case study.",
+      "tags": [
+        "systems design",
+        "documentation",
+        "deep-dive",
+        "high-priority",
+        "needs-review"
+      ]
+    },
+    {
+      "id": "carter-kappes-tournamental",
+      "title": "Detailed case study breakdown (Game Design Skills)",
+      "creator": "Carter Kappes",
+      "url": "https://carterkappes.gamedesignskills.com/tournamental/",
+      "disciplines": [
+        "Game design"
+      ],
+      "status": "inbox",
+      "summary": "Detailed case study for Tournamental on Game Design Skills. Reference for individual feature deep-dive structure.",
+      "takeaway": "TBD — needs deeper review",
+      "vois_application": "TBD — needs deeper review",
+      "tags": [
+        "case study",
+        "deep-dive",
+        "example",
+        "needs-review"
+      ]
     }
   ],
   "principles": [
@@ -45,6 +321,30 @@
     {
       "title": "Every case study needs a proof package",
       "description": "Minimum evidence: final media, problem statement, your role, constraints, process, technical or design decisions, result, and one concrete lesson."
+    },
+    {
+      "title": "Structure every piece the same way",
+      "description": "Context → Process → Decisions → Contribution → Result. This five-part structure (from Alexia Mandeville) works across game design, programming, audio, and UI. Consistency helps evaluators compare pieces quickly."
+    },
+    {
+      "title": "Curate per audience, not per project",
+      "description": "A combat designer portfolio and a tools portfolio should feel like different documents even when they share the same underlying evidence. Select and frame pieces according to the role you're targeting."
+    },
+    {
+      "title": "State the design goal before the solution",
+      "description": "From Oliver William Walker: always anchor the work with what you were trying to achieve. The goal provides the lens through which every decision makes sense."
+    },
+    {
+      "title": "Show how systems produce player behavior, not just features",
+      "description": "A systems portfolio fails when it lists mechanics. It succeeds when it demonstrates how features create specific player decisions, tensions, and experiences."
+    },
+    {
+      "title": "Role clarity builds credibility",
+      "description": "From Sean Gorman: clean project separation with explicit role statements per piece. The viewer should never wonder what you actually did."
+    },
+    {
+      "title": "Prioritize references that match your actual mix",
+      "description": "Gerlogu, Oliver William Walker, Sean Gorman, TopfHelm, Alexia Mandeville, and Project Ink cover systems design, implementation, process presentation, and contextual audio — the closest match to VOIS needs."
     }
   ]
 }
