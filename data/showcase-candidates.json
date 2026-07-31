@@ -11,19 +11,35 @@
       ],
       "status": "needs-capture",
       "summary": "The Timed Hit system can demonstrate interaction design, event routing, reusable HUD architecture, animation synchronization, and responsive audio feedback.",
-      "suggested_output": "A flagship cross-disciplinary case study with discipline-specific cuts.",
-      "media_needed": [
-        "clean gameplay clip",
-        "event-flow diagram",
-        "UI states",
-        "audio-only comparison"
-      ],
       "tags": [
         "combat",
         "feedback",
         "systems",
         "flagship"
-      ]
+      ],
+      "original-problem": "To be documented from VOIS development notes",
+      "important-decisions": [],
+      "iterations-or-failed-approaches": [],
+      "final-solution": "The Timed Hit system can demonstrate interaction design, event routing, reusable HUD architecture, animation synchronization, and responsive audio feedback.",
+      "player-facing-result": "",
+      "workflow-or-technical-result": "",
+      "available-evidence": [],
+      "missing-evidence": [
+        "clean gameplay clip",
+        "event-flow diagram",
+        "UI states",
+        "audio-only comparison"
+      ],
+      "suggested-portfolio-format": "A flagship cross-disciplinary case study with discipline-specific cuts.",
+      "related-commits": [],
+      "confidence-level": "medium",
+      "primary-discipline": "Game design",
+      "secondary-disciplines": [
+        "Game programming",
+        "UI",
+        "Sound design"
+      ],
+      "feature-name": "Timed Hit: one feature, four portfolio angles"
     },
     {
       "id": "vois-nyelith-lighting",
@@ -35,18 +51,33 @@
       ],
       "status": "candidate",
       "summary": "The corrupted forest's blue-to-red visual logic, river navigation, landmark hierarchy, and controlled camera composition can become a level-design and visual-direction study.",
-      "suggested_output": "Before-and-after environmental breakdown with annotated screenshots.",
-      "media_needed": [
-        "blockout comparison",
-        "lighting passes",
-        "river interaction clip"
-      ],
       "tags": [
         "level design",
         "lighting",
         "environment",
         "navigation"
-      ]
+      ],
+      "original-problem": "To be documented from VOIS development notes",
+      "important-decisions": [],
+      "iterations-or-failed-approaches": [],
+      "final-solution": "The corrupted forest's blue-to-red visual logic, river navigation, landmark hierarchy, and controlled camera composition can become a level-design and visual-direction study.",
+      "player-facing-result": "",
+      "workflow-or-technical-result": "",
+      "available-evidence": [],
+      "missing-evidence": [
+        "blockout comparison",
+        "lighting passes",
+        "river interaction clip"
+      ],
+      "suggested-portfolio-format": "Before-and-after environmental breakdown with annotated screenshots.",
+      "related-commits": [],
+      "confidence-level": "medium",
+      "primary-discipline": "Game design",
+      "secondary-disciplines": [
+        "UI",
+        "Art direction"
+      ],
+      "feature-name": "Nyelith Forest visual direction"
     },
     {
       "id": "vois-dark-fantasy-ui-audio",
@@ -58,18 +89,33 @@
       ],
       "status": "candidate",
       "summary": "The UI sound set explores negative space, restrained transients, large ceremonial impacts, and long reverberant tails inspired by dark fantasy interfaces.",
-      "suggested_output": "Interactive soundboard plus a 60–90 second implementation reel.",
-      "media_needed": [
-        "dry/wet comparison",
-        "in-game UI capture",
-        "sound family map"
-      ],
       "tags": [
         "ui audio",
         "dark fantasy",
         "implementation",
         "sound language"
-      ]
+      ],
+      "original-problem": "To be documented from VOIS development notes",
+      "important-decisions": [],
+      "iterations-or-failed-approaches": [],
+      "final-solution": "The UI sound set explores negative space, restrained transients, large ceremonial impacts, and long reverberant tails inspired by dark fantasy interfaces.",
+      "player-facing-result": "",
+      "workflow-or-technical-result": "",
+      "available-evidence": [],
+      "missing-evidence": [
+        "dry/wet comparison",
+        "in-game UI capture",
+        "sound family map"
+      ],
+      "suggested-portfolio-format": "Interactive soundboard plus a 60–90 second implementation reel.",
+      "related-commits": [],
+      "confidence-level": "medium",
+      "primary-discipline": "Sound design",
+      "secondary-disciplines": [
+        "Music",
+        "UI"
+      ],
+      "feature-name": "Dark fantasy UI sound language"
     }
   ]
 }

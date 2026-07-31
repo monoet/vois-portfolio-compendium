@@ -1,0 +1,130 @@
+{
+  "description": "Distilled presentation patterns for portfolio case studies. Each pattern maps to VOIS development evidence.",
+  "patterns": [
+    {
+      "id": "technical-game-designer",
+      "discipline": "Technical Game Design",
+      "structure": ["context", "technical-challenge", "solution", "result"],
+      "sections": {
+        "context": ["role", "team-size", "engine-tools", "ownership", "constraints"],
+        "technical-challenge": ["performance", "synchronization", "state-management", "authoring-workflow", "cross-discipline-integration"],
+        "solution": ["architecture", "event-flow", "state-diagrams", "behavior-trees", "scriptable-data", "inspector-workflow", "decisions"],
+        "result": ["authoring-time", "error-reduction", "performance", "cleaner-boundaries", "iteration-speed", "reusability", "player-facing-improvement"]
+      },
+      "vois_candidates": ["timed-hit-routing", "overworld-battle-flow", "persistence-architecture", "interaction-dialogue", "room-gate-authoring"]
+    },
+    {
+      "id": "systems-designer",
+      "discipline": "Game Systems Design",
+      "structure": ["system-relationships", "evidence", "visualization", "design-goal"],
+      "sections": {
+        "system-relationships": ["gameplay-loops", "resource-flows", "state-dependencies", "progression", "inventory-equipment", "dialogue-flags", "combat-rules", "risk-reward"],
+        "visualization": ["flowcharts", "state-maps", "dependency-matrices", "balance-tables", "io-diagrams", "player-scenarios"]
+      },
+      "design_goals": ["system-influence", "edge-case-anticipation", "understandability", "expandability"],
+      "vois_candidates": ["marks-system", "cp-economy", "inventory-equipment", "dialogue-flags", "elemental-reactions", "battle-state-transitions"]
+    },
+    {
+      "id": "combat-systems",
+      "discipline": "Combat Systems Design",
+      "structure": ["action-anatomy", "feedback", "situation-design"],
+      "sections": {
+        "action-anatomy": ["anticipation", "input-window", "active-frames", "recovery", "cancel-rules", "hit-confirmation", "feedback-timing"],
+        "feedback": ["animation", "hitstop", "camera", "ui-confirmation", "sound-layers", "vfx", "enemy-reaction"],
+        "situation-design": ["multiple-enemies", "enemy-behaviors", "environmental-pressure", "limited-resources", "timing-pressure", "status-effects", "party-composition"]
+      },
+      "vois_candidates": ["timed-hit", "marks-burst", "stagger", "elemental-roles", "attack-sequencing", "combat-audio-feedback"]
+    },
+    {
+      "id": "unity-gameplay-systems",
+      "discipline": "Gameplay Systems (Unity)",
+      "structure": ["data-authoring", "runtime-architecture", "designer-usability"],
+      "sections": {
+        "data-authoring": ["scriptable-objects", "databases", "serialization", "reusable-profiles", "inspector-validation"],
+        "runtime-architecture": ["state-machines", "event-buses", "services", "repositories", "providers", "runtime-authority", "scene-independence"],
+        "designer-usability": ["clear-fields", "format-examples", "validation-feedback", "safe-defaults", "preview-tools", "reduced-setup"]
+      },
+      "vois_candidates": ["ink-database", "character-services", "mark-profiles", "room-gate-helper", "footstep-authoring", "foliage-scatterer", "equipment-data"]
+    },
+    {
+      "id": "rpg-progression-balance",
+      "discipline": "RPG Progression & Balance",
+      "structure": ["evidence", "visualization"],
+      "note": "Only create when actual balance reasoning exists. Do not fabricate formulas.",
+      "sections": {
+        "evidence": ["damage-health", "stack-limits", "turn-duration", "resource-economy", "progression-pacing", "encounter-assumptions", "scaling-rules", "role-differentiation"],
+        "visualization": ["tables", "curves", "scenario-comparisons", "expected-values", "failure-analysis"]
+      },
+      "vois_candidates": ["marks-stack", "cp-economy", "lunar-aether-balance", "stagger-thresholds", "enemy-scaling", "equipment-progression"]
+    },
+    {
+      "id": "tools-authoring",
+      "discipline": "Tools & Authoring Workflows",
+      "structure": ["previous-workflow", "new-workflow", "result"],
+      "sections": {
+        "previous-workflow": ["manual-steps", "repeated-config", "common-errors", "technical-knowledge", "time-cost"],
+        "new-workflow": ["editor-interface", "automation", "validation", "preview", "batch-operations", "data-generation", "error-messages"],
+        "result": ["fewer-steps", "faster-iteration", "lower-errors", "safer-authoring", "onboarding", "reusable"]
+      },
+      "vois_candidates": ["room-gate-helper", "spawn-id-validation", "foliage-scatterer", "vertex-paint-tools", "scene-bootstrap", "ui-authoring", "asset-catalog"]
+    },
+    {
+      "id": "code-as-evidence",
+      "discipline": "Implementation Evidence",
+      "structure": ["problem", "architecture", "boundaries", "iteration", "validation", "integration"],
+      "anti_patterns": ["large-code-dumps", "unexplained-diagrams", "loc-claims", "ai-generated-as-expertise"],
+      "prefer": ["annotated-excerpts", "architecture-diagrams", "runtime-videos", "inspector-captures", "before-after-workflows"]
+    },
+    {
+      "id": "problem-iteration-solution",
+      "discipline": "Universal",
+      "structure": ["problem", "iteration", "solution", "outcome"],
+      "sections": {
+        "problem": ["what-failed", "why-mattered", "who-affected", "constraints"],
+        "iteration": ["approaches-tested", "what-failed", "tradeoffs", "what-changed"],
+        "solution": ["what-implemented", "why-chosen", "evidence", "limitations"],
+        "outcome": ["player-improvement", "workflow-improvement", "technical-improvement", "reusability", "lesson"]
+      }
+    }
+  ],
+  "cross_referencing_rules": {
+    "workflow": [
+      "Group evidence by feature, not by commit",
+      "Match each feature against the patterns above",
+      "Identify the strongest professional angle",
+      "Record secondary disciplines separately",
+      "List existing evidence",
+      "List missing evidence",
+      "Recommend the cheapest useful capture",
+      "Do not create a case study without clear problem, decision, and result"
+    ],
+    "multi_discipline_example": {
+      "feature": "Timed Hit",
+      "angles": {
+        "game-design": "timing, risk, readability, player decision",
+        "technical-design": "event routing, animation sync, reusable authoring",
+        "ui": "warmup, active window, success and failure states",
+        "sound-design": "anticipation, input confirmation, attack, impact, success, failure"
+      },
+      "rule": "Do not duplicate unchanged. Reframe per discipline."
+    }
+  },
+  "candidate_schema": {
+    "fields": [
+      "feature-name",
+      "primary-discipline",
+      "secondary-disciplines",
+      "original-problem",
+      "important-decisions",
+      "iterations-or-failed-approaches",
+      "final-solution",
+      "player-facing-result",
+      "workflow-or-technical-result",
+      "available-evidence",
+      "missing-evidence",
+      "suggested-portfolio-format",
+      "related-commits",
+      "confidence-level"
+    ]
+  }
+}
